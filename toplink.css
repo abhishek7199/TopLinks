@@ -87,3 +87,21 @@ h1 {
 .linkedin {
   border-radius: 5px;
 }
+
+@media screen and (max-width: 426px) {
+  .links-container {
+    max-width: 365px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .links-container {
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .links-container {
+    max-width: 250px;
+  }
+}
