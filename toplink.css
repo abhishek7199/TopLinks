@@ -88,7 +88,14 @@ h1 {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 428px) {
+  .links-container {
+    /* max-width: 365px; */
+    max-width: 365px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .links-container {
     max-width: 365px;
   }
